@@ -26,5 +26,5 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs the test_compiler package
-      - name: Run a one-line script
+      - name: Run compiler tests
         run: python3 -m test_compiler
